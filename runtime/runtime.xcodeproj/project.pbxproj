@@ -15,6 +15,11 @@
 		D4AA86D42063835700BA7AAE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D4AA86D32063835700BA7AAE /* main.m */; };
 		D4AA86DE2063835700BA7AAE /* runtimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D4AA86DD2063835700BA7AAE /* runtimeTests.m */; };
 		D4AA86E92063835700BA7AAE /* runtimeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D4AA86E82063835700BA7AAE /* runtimeUITests.m */; };
+		D4AA8700206383FF00BA7AAE /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = D4AA86F7206383FD00BA7AAE /* Person.m */; };
+		D4AA8701206383FF00BA7AAE /* NSDictionary+Perperty.m in Sources */ = {isa = PBXBuildFile; fileRef = D4AA86F9206383FE00BA7AAE /* NSDictionary+Perperty.m */; };
+		D4AA8702206383FF00BA7AAE /* TL_Image.m in Sources */ = {isa = PBXBuildFile; fileRef = D4AA86FB206383FE00BA7AAE /* TL_Image.m */; };
+		D4AA8703206383FF00BA7AAE /* NSObject+NSObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D4AA86FC206383FF00BA7AAE /* NSObject+NSObject.m */; };
+		D4AA8704206383FF00BA7AAE /* Infos.m in Sources */ = {isa = PBXBuildFile; fileRef = D4AA86FE206383FF00BA7AAE /* Infos.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,16 @@
 		D4AA86E42063835700BA7AAE /* runtimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = runtimeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4AA86E82063835700BA7AAE /* runtimeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = runtimeUITests.m; sourceTree = "<group>"; };
 		D4AA86EA2063835700BA7AAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4AA86F6206383FD00BA7AAE /* Infos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Infos.h; sourceTree = "<group>"; };
+		D4AA86F7206383FD00BA7AAE /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		D4AA86F8206383FE00BA7AAE /* TL_Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TL_Image.h; sourceTree = "<group>"; };
+		D4AA86F9206383FE00BA7AAE /* NSDictionary+Perperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Perperty.m"; sourceTree = "<group>"; };
+		D4AA86FA206383FE00BA7AAE /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		D4AA86FB206383FE00BA7AAE /* TL_Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TL_Image.m; sourceTree = "<group>"; };
+		D4AA86FC206383FF00BA7AAE /* NSObject+NSObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+NSObject.m"; sourceTree = "<group>"; };
+		D4AA86FD206383FF00BA7AAE /* NSObject+NSObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+NSObject.h"; sourceTree = "<group>"; };
+		D4AA86FE206383FF00BA7AAE /* Infos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Infos.m; sourceTree = "<group>"; };
+		D4AA86FF206383FF00BA7AAE /* NSDictionary+Perperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Perperty.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +120,16 @@
 				D4AA86C52063835600BA7AAE /* AppDelegate.m */,
 				D4AA86C72063835600BA7AAE /* ViewController.h */,
 				D4AA86C82063835600BA7AAE /* ViewController.m */,
+				D4AA86F6206383FD00BA7AAE /* Infos.h */,
+				D4AA86FE206383FF00BA7AAE /* Infos.m */,
+				D4AA86FF206383FF00BA7AAE /* NSDictionary+Perperty.h */,
+				D4AA86F9206383FE00BA7AAE /* NSDictionary+Perperty.m */,
+				D4AA86FD206383FF00BA7AAE /* NSObject+NSObject.h */,
+				D4AA86FC206383FF00BA7AAE /* NSObject+NSObject.m */,
+				D4AA86FA206383FE00BA7AAE /* Person.h */,
+				D4AA86F7206383FD00BA7AAE /* Person.m */,
+				D4AA86F8206383FE00BA7AAE /* TL_Image.h */,
+				D4AA86FB206383FE00BA7AAE /* TL_Image.m */,
 				D4AA86CA2063835600BA7AAE /* Main.storyboard */,
 				D4AA86CD2063835700BA7AAE /* Assets.xcassets */,
 				D4AA86CF2063835700BA7AAE /* LaunchScreen.storyboard */,
@@ -266,7 +291,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				D4AA86C92063835600BA7AAE /* ViewController.m in Sources */,
+				D4AA8704206383FF00BA7AAE /* Infos.m in Sources */,
 				D4AA86D42063835700BA7AAE /* main.m in Sources */,
+				D4AA8701206383FF00BA7AAE /* NSDictionary+Perperty.m in Sources */,
+				D4AA8703206383FF00BA7AAE /* NSObject+NSObject.m in Sources */,
+				D4AA8702206383FF00BA7AAE /* TL_Image.m in Sources */,
+				D4AA8700206383FF00BA7AAE /* Person.m in Sources */,
 				D4AA86C62063835600BA7AAE /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -431,6 +461,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				INFOPLIST_FILE = runtime/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.CorePress.-LTD.runtime";
@@ -444,6 +475,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				INFOPLIST_FILE = runtime/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.CorePress.-LTD.runtime";
